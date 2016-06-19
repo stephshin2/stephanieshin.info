@@ -3,6 +3,10 @@
 	background-color: #F2F5A9;
 }
 
+li {
+	text-align: left;
+}
+
 h1 {
 	font-family: impact;
 	font-size: 6em; 
