@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
 
+	<meta name="viewport" content="width=device-width, user-scalable=false”>
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 
@@ -38,40 +41,41 @@
 			</div>
 		</div>
 
+	
 		<div class="nav-bar">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-1">
-						<p>
+						<a class="nav-bar-title" href="#about">
 							About
-						</p>
+						</a>
 					</div>
 					<div class="col-md-1">
-						<p>
+						<a class="nav-bar-title" href="#resume">
 							Resume
-						</p>
+						</a>
 					</div>
 					<div class="col-md-1">
-						<p>
+						<a class="nav-bar-title" href="#passions">
 							Passions
-						</p>
+						</a>
 					</div>
 					<div class="col-md-1">
-						<p>
+						<a class="nav-bar-title" href="#blog">
 							Blog
-						</p>
+						</a>
 					</div>
 					<div class="col-md-1">
-						<p>
+						<a class="nav-bar-title" href="#contact">
 							Contact
-						</p>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container-fluid">
-			<div class="about-me">
+			<div class="about-me" id="about">
 				<div class="row"> 
 					<div class="col-sm-offset-2 col-sm-2 col-xs-12">
 						<div>
@@ -92,7 +96,7 @@
 			</div>
 		</div>
 
-		<div class="resume">
+		<div class="resume big-container clearfix" id="resume">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12">
@@ -118,7 +122,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<div class="resume-pic">
 							<img src="http://www.designtransfers.com/images/stickers/College/NCAA%20Division%20I%20(a-c)%20Team%20Logos/Boston%20University%20Terriers/Boston%20University%20Terriers%20logo%20T%20Shirt%20Iron%20on%20Transfers%20N4019.jpg"/>
 						</div>
@@ -126,7 +130,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-offset-2 col-md-4">
+					<div class="col-md-offset-2 col-md-4 col-xs-12">
 						<div class="resume-text">
 							<p class="resume-title">
 								Dance Theatre Group
@@ -142,7 +146,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<div class="resume-pic">
 							<img src="https://pbs.twimg.com/profile_images/591260574840791040/v1BnA83P.jpg"/>
 						</div>
@@ -150,7 +154,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-offset-2 col-md-4">
+					<div class="col-md-offset-2 col-md-4 col-xs-12">
 						<div class="resume-text">
 							<p class="resume-title">
 								iXperience
@@ -166,7 +170,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<div class="resume-pic">
 							<img src="https://pbs.twimg.com/profile_images/467248542537379840/AgqCzATA.png"/>
 						</div>
@@ -175,7 +179,7 @@
 			</div>
 		</div>
 
-		<div class="passions big-container clearfix">
+		<div class="passions big-container clearfix" id="passions">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12">
@@ -185,31 +189,37 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-offset-1 col-md-5">
-						<div class="boxes boxes-row-1">
+					<div class="col-md-offset-1 col-md-5 col-xs-12">
+						<div class="boxes boxes-row-1 box-1">
 							<a href="https://youtu.be/AH7yL3YdP_M">
-								<div class="passions-box-1">
-									DANCE
+								<div class="passions-box-1 passions-boxes">
+									<div class="hover-box">
+										DANCE
+									</div>
 								</div>
 							</a>
 						</div>
 					</div>
-					<div class="col-md-5">
-						<div class="boxes boxes-row-1">
+					<div class="col-md-5 col-xs-12">
+						<div class="boxes boxes-row-1 box-2">
 							<a href="https://youtu.be/sAJgs1P-uUE">
-								<div class="passions-box-2">
-									MUSIC
+								<div class="passions-box-2 passions-boxes">
+									<div class="hover-box">
+										MUSIC
+									</div>
 								</div>
 							</a>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-offset-3 col-md-6">
-						<div class="boxes boxes-row-2">
+					<div class="col-md-offset-3 col-md-6 col-xs-12">
+						<div class="boxes boxes-row-2 box-3">
 							<a href="https://youtu.be/4MeJDdiMsec">
-								<div class="passions-box-3">
-									TRAVEL
+								<div class="passions-box-3 passions-boxes">
+									<div class="hover-box">
+										TRAVEL
+									</div>
 								</div>
 							</a>
 						</div>
@@ -218,7 +228,7 @@
 			</div>
 		</div>
 
-		<div class="blog">
+		<div class="blog" id="blog">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12">
@@ -229,7 +239,7 @@
 				</div>
 				<div class="row">
 					<div class="blog-row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div>
 								<a href="https://stuffshinsays.wordpress.com/2016/02/06/stuff-from-a-bus/">
 									<img class="blog-boxes" src="blog-pic-1.PNG">
@@ -249,7 +259,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div>
 								<a href="https://stuffshinsays.wordpress.com/2016/02/29/stuff-on-being-basic/">
 									<img class="blog-boxes" src="blog-pic-2.PNG">
@@ -269,7 +279,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-12 col-xs-12">
 							<div>
 								<a href="https://stuffshinsays.wordpress.com/2016/02/06/stuff-from-a-bus/">
 									<img class="blog-boxes" src="blog-pic-1.PNG">
@@ -292,44 +302,45 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="contact">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="page-intro">
-							Connect with me: 
-						</div>
+
+	<div class="contact" id="contact">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="page-intro">
+						Connect with me: 
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-offset-4 col-md-1">
-						<div class="contacts">
-							<a href="https://www.facebook.com/steph.shin2">
-								<img class="contact-icons fb-icon" src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico">
-							</a>
-						</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-2">
+					<div class="contacts">
+						<a href="https://www.facebook.com/steph.shin2">
+							<img class="contact-icons fb-icon" src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico">
+						</a>
 					</div>
-					<div class="col-md-1">
-						<div class="contacts">
-							<a href="https://www.instagram.com/stephshin2/?hl=en">
-								<img class="contact-icons insta-icon" src="http://www.underconsideration.com/brandnew/archives/instagram_2016_icon.jpg">
-							</a>
-						</div>
+				</div>
+				<div class="col-md-2">
+					<div class="contacts">
+						<a href="https://www.instagram.com/stephshin2/?hl=en">
+							<img class="contact-icons insta-icon" src="instagram-icon.jpg">
+						</a>
 					</div>
-					<div class="col-md-1">
-						<div class="contacts mail-img">
-							<a href="mailto:steph.shin2@gmail.com">
-								<img class="contact-icons mail-icon" src="http://icons.iconarchive.com/icons/iynque/ios7-style/1024/Mail-icon.png">
-							</a>
-						</div>
+				</div>
+				<div class="col-md-2">
+					<div class="contacts mail-img">
+						<a href="mailto:steph.shin2@gmail.com">
+							<img class="contact-icons mail-icon" src="mail-icon.png">
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-	</div> <!-- .big-container -->
+	</div>
+</div> <!-- .big-container -->
 
 
 </div>
