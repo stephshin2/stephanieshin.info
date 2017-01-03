@@ -22,7 +22,7 @@
 }
 
 .home-page {
-	background: url(https://scontent.xx.fbcdn.net/t31.0-8/13517418_10208950262731356_7323430064802908105_o.jpg) no-repeat center center fixed;
+	background: url("/images/homepage.jpg") no-repeat center center fixed;
 	background-size: cover;
 	padding-left: 15px;
 }
@@ -219,17 +219,17 @@ h1 {
 
 
 .passions-box-1:hover {
-	background: url(https://scontent.xx.fbcdn.net/t31.0-8/13584802_10208951434640653_1658045229122671626_o.jpg);
+	background: url("images/passion-violin-pic.jpg");
 	background-size: cover;
 }
 
 .passions-box-2:hover {
-	background: url(passion-2-pic.jpg);
+	background: url("images/passion-2-pic.jpg");
 	background-size: cover;
 }
 
 .passions-box-3:hover {
-	background: url(https://scontent.xx.fbcdn.net/t31.0-8/13582133_10208951457481224_978770681661165200_o.jpg);
+	background: url("images/travel.jpg");
 	background-size: cover;
 }
 
