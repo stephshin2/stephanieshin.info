@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="personalWebApp">
+<html>
 	<head>
 		<title>Stephanie Shin</title>
 
@@ -24,25 +24,288 @@
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/2.4.1/angular.js"></script>
+		<!-- 
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
 		<script src="angular-route.js"></script>
 		<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.0.1.js"></script>
+		-->
 
 	</head>
 
 
 	<body>
 
-		<div ng-view>
+	<!-- HOME -->
+		<div class="home-page">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="title-text">
+							<h1> <strong> Stephanie Shin </strong></h1>
+							<h4> Explorer, Foodie, Developer </h4>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<!-- js sources --> 
+	
+		<div class="nav-bar">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-1">
+						<a class="nav-bar-title" href="#about">
+							About
+						</a>
+					</div>
+					<div class="col-md-1">
+						<a class="nav-bar-title" href="#resume">
+							Resume
+						</a>
+					</div>
+					<div class="col-md-1">
+						<a class="nav-bar-title" href="#passions">
+							Passions
+						</a>
+					</div>
+					<div class="col-md-1">
+						<a class="nav-bar-title" href="#blog">
+							Blog
+						</a>
+					</div>
+					<div class="col-md-1">
+						<a class="nav-bar-title" href="#contact">
+							Contact
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- ABOUT ME -->
+
+		<div class="container-fluid">
+			<div class="about-me" id="about">
+				<div class="row"> 
+					<div class="col-sm-offset-2 col-sm-2 col-xs-12">
+						<div>
+							<img class="about-me-img" src="https://scontent.xx.fbcdn.net/t31.0-8/13580385_10208950557258719_4684982313200372397_o.jpg"/>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-offset-2 col-xs-8">
+						<div class="about-me-text">
+							<div class="about-me-text-intro">
+								<strong>Hey there! <br>I'm Stephanie Shin.</strong>
+							</div>
+							<div class="about-me-text-more">
+								I was born and raised in Iowa (not on a farm), and now I live in the great city of Boston. Follow me as I attempt to navigate new adventures, smiling along the way. 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- RESUME --> 
+
+
+		<div class="resume big-container clearfix" id="resume">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-intro">
+							Things I've accomplished:
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-2 col-md-4 col-xs-12">
+						<div class="resume-text">
+							<p class="resume-title">
+								Boston University 
+							</p>
+							<p class="resume-time">
+								2015-present
+							</p>
+							<p class="resume-location">
+								Boston, Massachusetts 
+							</p>
+							<p class="resume-info" >
+								This fall I will be a sophomore in the College of Arts and Sciences as an undeclared major. I have been on the Dean's List my whole time at the university so far.  
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="resume-pic">
+							<img src="http://www.designtransfers.com/images/stickers/College/NCAA%20Division%20I%20(a-c)%20Team%20Logos/Boston%20University%20Terriers/Boston%20University%20Terriers%20logo%20T%20Shirt%20Iron%20on%20Transfers%20N4019.jpg"/>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-offset-2 col-md-4 col-xs-12">
+						<div class="resume-text">
+							<p class="resume-title">
+								Dance Theatre Group
+							</p>
+							<p class="resume-time">
+								2015-present
+							</p>
+							<p class="resume-location">
+								Boston University 
+							</p>
+							<p class="resume-info" >
+								This fall I will be the VP of the dance minor club at BU. Last year, I was Public Relations Chair. I choreograph and dance for this group about 12 hours a week. 
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="resume-pic">
+							<img src="https://pbs.twimg.com/profile_images/591260574840791040/v1BnA83P.jpg"/>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-offset-2 col-md-4 col-xs-12">
+						<div class="resume-text">
+							<p class="resume-title">
+								iXperience
+							</p>
+							<p class="resume-time">
+								2016 Summer
+							</p>
+							<p class="resume-location">
+								Cape Town, South Africa 
+							</p>
+							<p class="resume-info" >
+								I took a 4-week intensive course in Web Development and then interned at Liquid Thought, a tech consulting company, in Cape Town for 4 weeks. 
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12">
+						<div class="resume-pic">
+							<img src="https://pbs.twimg.com/profile_images/467248542537379840/AgqCzATA.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!-- PASSIONS --> 
+
+
+		<div class="passions big-container clearfix" id="passions">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-intro">
+							Experience some of the things I love:
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-5 col-xs-12">
+						<div class="boxes boxes-row-1 box-1">
+							<a href="https://youtu.be/AH7yL3YdP_M">
+								<div class="passions-box-1 passions-boxes">
+									<div class="hover-box">
+										DANCE
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-5 col-xs-12">
+						<div class="boxes boxes-row-1 box-2">
+							<a href="https://youtu.be/sAJgs1P-uUE">
+								<div class="passions-box-2 passions-boxes">
+									<div class="hover-box">
+										MUSIC
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6 col-xs-12">
+						<div class="boxes boxes-row-2 box-3">
+							<a href="https://youtu.be/4MeJDdiMsec">
+								<div class="passions-box-3 passions-boxes">
+									<div class="hover-box">
+										TRAVEL
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!-- CONTACT --> 
+
+
+		<div class="contact" id="contact">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="page-intro">
+							Connect with me: 
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-3 col-md-2">
+						<div class="contacts">
+							<a href="https://www.facebook.com/steph.shin2">
+								<img class="contact-icons fb-icon" src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="contacts">
+							<a href="https://www.instagram.com/stephshin2/?hl=en">
+								<img class="contact-icons insta-icon" src="instagram-icon.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="contacts mail-img">
+							<a href="mailto:steph.shin2@gmail.com">
+								<img class="contact-icons mail-icon" src="mail-icon.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!-- js sources 
 		<script src="/js/index.js"></script>
 
 		<script src="/js/controllers/HomeCtrl.js"></script>
-
-
+		--> 
 	</body>
 
 </html>
