@@ -293,27 +293,30 @@ a:link {
 .fb-icon {
 	margin: 0px auto;
 	width: 60%;
-	border-radius: 5%;
+	/*border-radius: 5%;*/
 }
 
 .insta-icon {
 	margin: 0px auto;
 	width: 60%;
-	border-radius: 25%;
+	/*border-radius: 25%;*/
 }
 
 .mail-icon {
 	margin: 0px auto;
 	width: 60%;
-	border-radius: 25%;
+	/*border-radius: 25%;*/
 }
 
 .contacts {
 	text-align: center;
 }
 
-.contact-icons:hover {
+.contact-icons {
 	border-radius: 50%;
+}
+
+.contact-icons:hover {
 	box-shadow: 0 3px 3px rgba(0,0,0,3);
 	transition: box-shadow .1s;
 }
