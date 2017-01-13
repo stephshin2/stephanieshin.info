@@ -91,8 +91,8 @@ h1 {
 
 .about-me-img {
 	border-radius: 50%;
-	height: 300px;
-	width: 300px;
+	/*height: 300px;
+	width: 300px;*/
 }
 
 .about-me-text {
@@ -289,6 +289,10 @@ a:link {
 	font-size: 14px;
 }
 
+.linkedin-icon {
+	margin: 0px auto;
+	width: 60%;
+}
 
 .fb-icon {
 	margin: 0px auto;
@@ -323,6 +327,7 @@ a:link {
 
 .contact {
 	padding-bottom: 130px;
+	background-color: rgba(64, 129, 214, .3);
 }
 
 
