@@ -92,10 +92,14 @@ h1 {
 .about-me-img {
 	margin: 0px auto; 
 	width: 90%;
-	background: url("images/stephshin.jpg");
 }
 
 .about-me-img img {
+	width: 65%;
+	margin: 0px auto;
+	border-radius: 50%;
+	border: 5px solid white;
+	margin-top: 20px;
 	/*width: 90%;
 	margin: 0px auto;
 	border-radius: 50%;*/
