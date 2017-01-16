@@ -89,11 +89,11 @@ h1 {
 }
 
 
-/*.about-me-img {
+.about-me-img {
 	margin: 0px auto; 
 	width: 90%;
 }
-*/
+
 
 .about-me-img img {
 	border-radius: 50%;
