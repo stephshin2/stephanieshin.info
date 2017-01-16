@@ -195,6 +195,7 @@ h1 {
 	position: relative;
 }
 
+/*
 .passions-boxes::before {
 	content: " ";
 	position: absolute;
@@ -211,6 +212,7 @@ h1 {
 	opacity: 1;
 }
 
+
 .hover-box {
 	opacity: 1;
 	color: white;
@@ -222,18 +224,19 @@ h1 {
 	opacity: 0;
 }
 
+*/
 
-.passions-box-1:hover {
+.passions-box-1 {
+	background: url("images/dtg.jpg");
+	background-size: cover;
+}
+
+.passions-box-2 {
 	background: url("images/passion-violin-pic.jpg");
 	background-size: cover;
 }
 
-.passions-box-2:hover {
-	background: url("images/passion-2-pic.jpg");
-	background-size: cover;
-}
-
-.passions-box-3:hover {
+.passions-box-3 {
 	background: url("images/travel.jpg");
 	background-size: cover;
 }
