@@ -96,8 +96,8 @@ h1 {
 
 .about-me-img img {
 	/*width: 90%;
-	margin: 0px auto;*/
-	border-radius: 50%;
+	margin: 0px auto;
+	border-radius: 50%;*/
 }
 
 .about-me-text {
@@ -257,6 +257,10 @@ a {
 }
 
 a:link {
+	color: white;
+}
+
+.boxes a:hover {
 	color: white;
 }
 
